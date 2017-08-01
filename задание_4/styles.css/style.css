@@ -1,0 +1,34 @@
+.fullwrap, .header, .wrap, .main, .sidebar, .footer{
+	border:2px solid;
+}
+.fullwrap, .header, .wrap, .footer{
+	margin:10px auto;
+}
+.fullwrap{
+	width:900px;
+	height:880px;
+}
+.header{
+	width:850px;
+	height:100px;
+}
+.wrap{
+	width:850px;
+	height:577px;
+}
+.main{
+	width:516px;
+	height:550px;
+	float:left;
+	margin:10px;
+}
+.sidebar{
+	width:286px;
+	height:550px;
+	float:right;
+	margin:10px;
+}
+.footer{
+	width:850px;
+	height:140px;
+}

@@ -1,0 +1,11 @@
+div {
+  width: 400px;
+}
+.monkey{
+	float:left;
+	margin:20px;
+}
+.bear{
+	float:right;
+	margin:20px;
+}
