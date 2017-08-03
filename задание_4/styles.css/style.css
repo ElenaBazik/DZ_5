@@ -14,8 +14,12 @@
 }
 .wrap{
 	width:850px;
-	height:577px;
 }
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
 .main{
 	width:516px;
 	height:550px;
