@@ -14,8 +14,11 @@ body{
 	width:675px;
 	margin:0 auto;
 }
+p{
+	margin:30px 0;
+}
 .content1{
-width:587px;
+    width:587px;
 	margin:0 auto;	
 }
 .header{
@@ -26,7 +29,7 @@ img{
 	width:100%;
 }
 .mar{
-margin:25px 0;
+	margin:25px 0;
 }
 .one, .thwo{
 	padding:20px 0;
@@ -52,6 +55,8 @@ button{
 	color:white;
 	font-size:17px;
 	border-radius:8px;
+	border:1px solid transparent; 
+/*	outline:1px solid transparent;*/
 	margin:20px 0px;
 }
 .one button{
@@ -66,11 +71,11 @@ button{
 	width:587px;
     margin:30px 0px 35px 0px;
 }
-.footer{
-width:600px;
-padding:10px 367px;
-font-size: 12px;
- text-align: center;
+footer{
+	width:600px;
+	padding:10px 367px;
+	font-size: 12px;
+	text-align: center;
 }
 .text{
 	margin:20px 0;

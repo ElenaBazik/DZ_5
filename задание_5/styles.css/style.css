@@ -18,6 +18,9 @@ body{
 img{
 	width:100%;
 }
+p{
+	margin:30px 0;
+}
 .content{	
 	background: white;
 	width:600px;
@@ -28,7 +31,7 @@ img{
 	left:25%;
 }
 .text{
-	padding:25px;
+	padding: 0 25px;
 }
 div{
 	border-top:1px solid transparent;
@@ -47,6 +50,8 @@ button{
 	background:#D65C4B;
 	color:white;
 	font-size:17px;
+	border:1px solid transparent; 
+	outline:1px solid transparent;
 	border-radius:8px;	
 }
 .one button{
@@ -59,9 +64,9 @@ button{
 }
 .touch{
 	width:556px;
-    margin:46px 0px 35px 19px;
+    margin:5px 0px 35px 19px;
 }
-.footer{
+footer{
 	width:600px;
 	padding:10px 367px;
 	font-size: 12px;
